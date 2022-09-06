@@ -84,7 +84,7 @@ end if
 # - - - - - - - - - -
 
 # Work - Two monitors
-if (get item 2 of defineMonitor = "1920 x 1080") and (get item 4 of defineMonitor = "3440 x 1440")
+if (defineMonitor contains "1920 x 1080") and (defineMonitor contains "3440 x 1440")
 
     tell application "System Events"
 
